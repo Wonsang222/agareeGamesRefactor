@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1597A782BBC21E1001C48BF /* Agareegames_RefactoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1597A772BBC21E1001C48BF /* Agareegames_RefactoryApp.swift */; };
+		C1597A7A2BBC21E1001C48BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1597A792BBC21E1001C48BF /* ContentView.swift */; };
+		C1597A7C2BBC21E2001C48BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1597A7B2BBC21E2001C48BF /* Assets.xcassets */; };
+		C1597A7F2BBC21E2001C48BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1597A7E2BBC21E2001C48BF /* Preview Assets.xcassets */; };
+		C1597A892BBC21E3001C48BF /* Agareegames_RefactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1597A882BBC21E3001C48BF /* Agareegames_RefactoryTests.swift */; };
+		C1597A932BBC21E3001C48BF /* Agareegames_RefactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1597A922BBC21E3001C48BF /* Agareegames_RefactoryUITests.swift */; };
+		C1597A952BBC21E3001C48BF /* Agareegames_RefactoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1597A942BBC21E3001C48BF /* Agareegames_RefactoryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1597A852BBC21E3001C48BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1597A6C2BBC21E1001C48BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1597A732BBC21E1001C48BF;
+			remoteInfo = Agareegames_Refactory;
+		};
+		C1597A8F2BBC21E3001C48BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1597A6C2BBC21E1001C48BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1597A732BBC21E1001C48BF;
+			remoteInfo = Agareegames_Refactory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1597A742BBC21E1001C48BF /* Agareegames_Refactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agareegames_Refactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1597A772BBC21E1001C48BF /* Agareegames_RefactoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agareegames_RefactoryApp.swift; sourceTree = "<group>"; };
+		C1597A792BBC21E1001C48BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1597A7B2BBC21E2001C48BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1597A7E2BBC21E2001C48BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1597A842BBC21E3001C48BF /* Agareegames_RefactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Agareegames_RefactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1597A882BBC21E3001C48BF /* Agareegames_RefactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agareegames_RefactoryTests.swift; sourceTree = "<group>"; };
+		C1597A8E2BBC21E3001C48BF /* Agareegames_RefactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Agareegames_RefactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1597A922BBC21E3001C48BF /* Agareegames_RefactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agareegames_RefactoryUITests.swift; sourceTree = "<group>"; };
+		C1597A942BBC21E3001C48BF /* Agareegames_RefactoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agareegames_RefactoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1597A712BBC21E1001C48BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1597A812BBC21E3001C48BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1597A8B2BBC21E3001C48BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1597A6B2BBC21E1001C48BF = {
+			isa = PBXGroup;
+			children = (
+				C1597A762BBC21E1001C48BF /* Agareegames_Refactory */,
+				C1597A872BBC21E3001C48BF /* Agareegames_RefactoryTests */,
+				C1597A912BBC21E3001C48BF /* Agareegames_RefactoryUITests */,
+				C1597A752BBC21E1001C48BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1597A752BBC21E1001C48BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1597A742BBC21E1001C48BF /* Agareegames_Refactory.app */,
+				C1597A842BBC21E3001C48BF /* Agareegames_RefactoryTests.xctest */,
+				C1597A8E2BBC21E3001C48BF /* Agareegames_RefactoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1597A762BBC21E1001C48BF /* Agareegames_Refactory */ = {
+			isa = PBXGroup;
+			children = (
+				C1597A772BBC21E1001C48BF /* Agareegames_RefactoryApp.swift */,
+				C1597A792BBC21E1001C48BF /* ContentView.swift */,
+				C1597A7B2BBC21E2001C48BF /* Assets.xcassets */,
+				C1597A7D2BBC21E2001C48BF /* Preview Content */,
+			);
+			path = Agareegames_Refactory;
+			sourceTree = "<group>";
+		};
+		C1597A7D2BBC21E2001C48BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1597A7E2BBC21E2001C48BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1597A872BBC21E3001C48BF /* Agareegames_RefactoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1597A882BBC21E3001C48BF /* Agareegames_RefactoryTests.swift */,
+			);
+			path = Agareegames_RefactoryTests;
+			sourceTree = "<group>";
+		};
+		C1597A912BBC21E3001C48BF /* Agareegames_RefactoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1597A922BBC21E3001C48BF /* Agareegames_RefactoryUITests.swift */,
+				C1597A942BBC21E3001C48BF /* Agareegames_RefactoryUITestsLaunchTests.swift */,
+			);
+			path = Agareegames_RefactoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1597A732BBC21E1001C48BF /* Agareegames_Refactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1597A982BBC21E3001C48BF /* Build configuration list for PBXNativeTarget "Agareegames_Refactory" */;
+			buildPhases = (
+				C1597A702BBC21E1001C48BF /* Sources */,
+				C1597A712BBC21E1001C48BF /* Frameworks */,
+				C1597A722BBC21E1001C48BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Agareegames_Refactory;
+			productName = Agareegames_Refactory;
+			productReference = C1597A742BBC21E1001C48BF /* Agareegames_Refactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1597A832BBC21E3001C48BF /* Agareegames_RefactoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1597A9B2BBC21E3001C48BF /* Build configuration list for PBXNativeTarget "Agareegames_RefactoryTests" */;
+			buildPhases = (
+				C1597A802BBC21E3001C48BF /* Sources */,
+				C1597A812BBC21E3001C48BF /* Frameworks */,
+				C1597A822BBC21E3001C48BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1597A862BBC21E3001C48BF /* PBXTargetDependency */,
+			);
+			name = Agareegames_RefactoryTests;
+			productName = Agareegames_RefactoryTests;
+			productReference = C1597A842BBC21E3001C48BF /* Agareegames_RefactoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1597A8D2BBC21E3001C48BF /* Agareegames_RefactoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1597A9E2BBC21E3001C48BF /* Build configuration list for PBXNativeTarget "Agareegames_RefactoryUITests" */;
+			buildPhases = (
+				C1597A8A2BBC21E3001C48BF /* Sources */,
+				C1597A8B2BBC21E3001C48BF /* Frameworks */,
+				C1597A8C2BBC21E3001C48BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1597A902BBC21E3001C48BF /* PBXTargetDependency */,
+			);
+			name = Agareegames_RefactoryUITests;
+			productName = Agareegames_RefactoryUITests;
+			productReference = C1597A8E2BBC21E3001C48BF /* Agareegames_RefactoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1597A6C2BBC21E1001C48BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C1597A732BBC21E1001C48BF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C1597A832BBC21E3001C48BF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C1597A732BBC21E1001C48BF;
+					};
+					C1597A8D2BBC21E3001C48BF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C1597A732BBC21E1001C48BF;
+					};
+				};
+			};
+			buildConfigurationList = C1597A6F2BBC21E1001C48BF /* Build configuration list for PBXProject "Agareegames_Refactory" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1597A6B2BBC21E1001C48BF;
+			productRefGroup = C1597A752BBC21E1001C48BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1597A732BBC21E1001C48BF /* Agareegames_Refactory */,
+				C1597A832BBC21E3001C48BF /* Agareegames_RefactoryTests */,
+				C1597A8D2BBC21E3001C48BF /* Agareegames_RefactoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1597A722BBC21E1001C48BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1597A7F2BBC21E2001C48BF /* Preview Assets.xcassets in Resources */,
+				C1597A7C2BBC21E2001C48BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1597A822BBC21E3001C48BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1597A8C2BBC21E3001C48BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1597A702BBC21E1001C48BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1597A7A2BBC21E1001C48BF /* ContentView.swift in Sources */,
+				C1597A782BBC21E1001C48BF /* Agareegames_RefactoryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1597A802BBC21E3001C48BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1597A892BBC21E3001C48BF /* Agareegames_RefactoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1597A8A2BBC21E3001C48BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1597A932BBC21E3001C48BF /* Agareegames_RefactoryUITests.swift in Sources */,
+				C1597A952BBC21E3001C48BF /* Agareegames_RefactoryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1597A862BBC21E3001C48BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1597A732BBC21E1001C48BF /* Agareegames_Refactory */;
+			targetProxy = C1597A852BBC21E3001C48BF /* PBXContainerItemProxy */;
+		};
+		C1597A902BBC21E3001C48BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1597A732BBC21E1001C48BF /* Agareegames_Refactory */;
+			targetProxy = C1597A8F2BBC21E3001C48BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C1597A962BBC21E3001C48BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1597A972BBC21E3001C48BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1597A992BBC21E3001C48BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Agareegames_Refactory/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD5K45Y4NW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wonsang.Agareegames-Refactory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1597A9A2BBC21E3001C48BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Agareegames_Refactory/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD5K45Y4NW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wonsang.Agareegames-Refactory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1597A9C2BBC21E3001C48BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZD5K45Y4NW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wonsang.Agareegames-RefactoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agareegames_Refactory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Agareegames_Refactory";
+			};
+			name = Debug;
+		};
+		C1597A9D2BBC21E3001C48BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZD5K45Y4NW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wonsang.Agareegames-RefactoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agareegames_Refactory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Agareegames_Refactory";
+			};
+			name = Release;
+		};
+		C1597A9F2BBC21E3001C48BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZD5K45Y4NW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wonsang.Agareegames-RefactoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Agareegames_Refactory;
+			};
+			name = Debug;
+		};
+		C1597AA02BBC21E3001C48BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZD5K45Y4NW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wonsang.Agareegames-RefactoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Agareegames_Refactory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1597A6F2BBC21E1001C48BF /* Build configuration list for PBXProject "Agareegames_Refactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1597A962BBC21E3001C48BF /* Debug */,
+				C1597A972BBC21E3001C48BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1597A982BBC21E3001C48BF /* Build configuration list for PBXNativeTarget "Agareegames_Refactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1597A992BBC21E3001C48BF /* Debug */,
+				C1597A9A2BBC21E3001C48BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1597A9B2BBC21E3001C48BF /* Build configuration list for PBXNativeTarget "Agareegames_RefactoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1597A9C2BBC21E3001C48BF /* Debug */,
+				C1597A9D2BBC21E3001C48BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1597A9E2BBC21E3001C48BF /* Build configuration list for PBXNativeTarget "Agareegames_RefactoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1597A9F2BBC21E3001C48BF /* Debug */,
+				C1597AA02BBC21E3001C48BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1597A6C2BBC21E1001C48BF /* Project object */;
+}
